@@ -54,7 +54,7 @@ ingress:
   hosts:
     - host: localhost
       paths:
-        - path: /calculator-app(/|$)(.*)
+        - path: /calculator(/|$)(.*)
           pathType: ImplementationSpecific
   tls:
     - secretName: tls-secret
